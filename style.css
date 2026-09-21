@@ -1,0 +1,20 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 150px);
+    gap: 10px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.box {
+    background-color: skyblue;
+    padding: 50px;
+    font-size: 25px;
+    font-weight: bold;
+    border: 2px solid black;
+}
